@@ -7,23 +7,32 @@
 
 .row {
     display: inline-block;
-    margin:50px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 body {
-    margin:0px auto;
+    margin:0px;
 }
 
 p {
-    margin:50px auto;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 button {
     background-color: rgb(240, 114, 30);
     color: #fff;
     border-radius: 2px;
-    min-height:30px; 
+    min-height:60px; 
     min-width: 120px;
+    border: none;
+    outline: none;
 }
 
 button:hover,:focus,:active {
