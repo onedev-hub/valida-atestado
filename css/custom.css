@@ -1,3 +1,26 @@
+
+
 .custom-navbar {
     background-color: rgb(54, 71, 98);
+    height: 80;
+}
+
+.row {
+    display: inline-block;
+}
+
+body {
+    margin:50px auto;
+}
+
+button {
+    background-color: rgb(240, 114, 30);
+    color: #fff;
+    border-radius: 2px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+button:hover,:focus,:active {
+    color: #fff;
 }
