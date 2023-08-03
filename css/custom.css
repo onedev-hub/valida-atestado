@@ -2,14 +2,19 @@
 
 .custom-navbar {
     background-color: rgb(54, 71, 98);
-    height: 80;
+    height: 100;
 }
 
 .row {
     display: inline-block;
+    margin:50px auto;
 }
 
 body {
+    margin:0px auto;
+}
+
+p {
     margin:50px auto;
 }
 
