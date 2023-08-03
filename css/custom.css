@@ -2,8 +2,13 @@
 
 .custom-navbar {
     background-color: rgb(54, 71, 98);
-    min-height:80px; 
+    min-height:40px; 
     padding-left: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
 }
 
 .row {
@@ -14,9 +19,28 @@
     margin-left: 50px;
 }
 
+.box {
+    min-height:60px; 
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgb(196, 192, 185);
+}
+
 body {
     margin:0px;
     font-family: sans-serif;
+    background-color: #fff;
 }
 
 p {
@@ -27,23 +51,39 @@ p {
     margin-left: 50px;
 }
 
+.title-container {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+p.title {
+    font-size: 30;
+    font-weight: bold;
+    align-self: center;
+}
+
 input {
     border: none;
     outline: none;
-    min-height:30px; 
+    min-height: 30px; 
+    min-width: 200px;
+    border: 1px solid #000;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 button {
     background-color: rgb(251, 147, 55);
     color: #fff;
     border-radius: 2px;
-    min-height:30px; 
+    min-height: 36px; 
     min-width: 120px;
     border: none;
     outline: none;
 }
 
-button:hover,:focus,:active {
+button:hover {
     background-color: rgb(240, 114, 30);
     color: #fff;
 }
